@@ -1,0 +1,12 @@
+.under-nav {
+    background-color: #3B3B3B;
+    padding-top: 85px;
+    height: 30px;
+    text-align: right;
+}
+
+.under-nav .say-something {
+    padding-right: 10%;
+    color: #B0B0B0;
+    float: right;
+}

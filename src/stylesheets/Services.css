@@ -1,0 +1,29 @@
+.services {
+    padding-top: 45px;
+}
+
+.services .services-heading {
+    margin: 0;
+}
+
+.services .services-toggle {
+    padding-top: 30px;
+    text-align: center;
+    padding: 8px 16px;
+    margin-top: 10px;
+    /* display: flex;
+    align-items: center;
+    justify-items: center; */
+}
+
+.services .services-toggle .for-employers {
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #F8BD00;
+}
+
+.services .services-toggle .for-drivers {
+    padding: 8px 16px;
+    border: 1px solid #F8BD00;
+    background: #fff;
+}

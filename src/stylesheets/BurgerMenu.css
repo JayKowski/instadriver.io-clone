@@ -1,0 +1,13 @@
+.menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3B3B3B;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+}
+
+.menu-btn .menu-name {
+    padding-right: 10px;
+}

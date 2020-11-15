@@ -1,0 +1,45 @@
+.search-div {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    background-image: url('https://instadriver.co/images/uploads/banner/resize/BANNER_1556199205.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.search-div .search-box {
+    margin-left: 90px;
+    width: 30%;
+    padding: 10px;
+    background-image: url('https://instadriver.co/img/transparent.png')
+}
+
+.search-div .search-box p {
+    opacity: 1;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.search-box .search-form input {
+    margin: 5px 0;
+    padding: 15px 15px;
+    width: 70%;
+}
+
+.search-form .form-footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 95%;
+    margin: 10px;
+}
+
+.search-form .form-footer .search-btn {
+    background-color: #FED136;
+    padding: 10px;
+    height: 30px;
+    flex-basis: 58%;
+    margin-left: 10px;
+}

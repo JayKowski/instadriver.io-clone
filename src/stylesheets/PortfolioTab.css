@@ -1,0 +1,17 @@
+.portfolio-tab {
+    padding: 50px;
+    overflow: auto;
+    background-color: '#F8BD00';
+}
+
+.portfolio-tab .portfolio-tab-content {
+    width: 60%;
+}
+
+.portfolio-tab .portfolio-tab-content h2 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.portfolio-tab .portfolio-tab-content p {
+    font-family: 'Rubik', sans-serif;
+}

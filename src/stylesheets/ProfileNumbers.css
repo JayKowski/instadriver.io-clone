@@ -1,0 +1,17 @@
+.profile-nums {
+    padding: 85px 10px;
+    background-color: #FEFCF5;
+}
+
+.profile-nums .profile-head {
+    font-family: 'Rubik',
+    sans-serif;
+    color: #3B3B3B;
+    margin-bottom: 30px;
+}
+
+.profile-nums .profile-stats {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}

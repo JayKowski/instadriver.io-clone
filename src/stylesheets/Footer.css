@@ -1,0 +1,19 @@
+.footer {
+    background-image: url('https://instadriver.co/img/footer.png');
+    padding: 58px 0 40px;
+}
+
+.footer .footer-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.footer .social-med-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer .social-med-links h4 {
+    color: #fff;
+}
