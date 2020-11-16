@@ -6,13 +6,14 @@
 }
 
 .under-nav .say-something {
-    /* padding-right: 10%; */
+    padding-right: 10%;
     color: #B0B0B0;
     /* float: right; */
 }
 
 .under-nav-content {
     display: flex;
+    justify-content: flex-end;
 }
 
 .under-nav .say-something img {
@@ -49,8 +50,7 @@
 
     .under-nav .say-something {
         display: inline-block;
-        /* position: absolute;
-        right: 50px; */
+        padding: 0;
     }
 
 }
