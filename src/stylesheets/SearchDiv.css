@@ -43,3 +43,14 @@
     flex-basis: 58%;
     margin-left: 10px;
 }
+
+@media only screen and (max-width: 660px) {
+    .search-div {
+        padding-left: 15px;
+    }
+    
+    .search-div .search-box {
+        width: 90%;
+        margin: 0;
+    }
+}

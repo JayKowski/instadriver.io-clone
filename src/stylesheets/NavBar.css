@@ -11,6 +11,7 @@
     float: left;
     margin-left: 10%;
     padding-top: 10px;
+    height: 50px;
 }
 
 .navbar .nav-links {
@@ -28,4 +29,26 @@
     clear: both;
     display: table;
 
+}
+
+@media only screen and (max-width: 660px) {
+    .navbar {
+        display: flex;
+        align-content: flex-start;
+    }
+    .navbar .nav-links {
+        width: 55%;
+        margin: 0;
+        padding-right: 36px;
+        padding-top: 10px;
+        padding-left: 25px;
+        text-align: right;
+    }
+    .navbar .nav-img {
+        margin-left: 10%;
+    }
+
+    .navbar .nav-img img {
+        height: 40px;
+    }
 }

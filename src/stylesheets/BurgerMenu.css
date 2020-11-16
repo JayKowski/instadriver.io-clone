@@ -11,3 +11,14 @@
 .menu-btn .menu-name {
     padding-right: 10px;
 }
+
+@media only screen and (max-width: 660px) {
+    .menu-btn {
+        background-color: #FED136;
+        color: #fff;
+        text-transform: uppercase;
+        border-radius: 5px;
+        width: 94px;
+        height: 35px;
+    }
+}

@@ -17,3 +17,16 @@
 .footer .social-med-links h4 {
     color: #fff;
 }
+
+@media only screen and (max-width: 660px) {
+    .footer .footer-links-container {
+        display: block;
+    }
+    
+
+    .footer .social-med-links {
+        list-style-type: none;
+        padding-left: 23px;
+        text-align: left;
+    }
+}

@@ -1,7 +1,14 @@
 body {
+  width: 100%;
   margin: 0;
   font-family: 'Rubik',
   sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 code {

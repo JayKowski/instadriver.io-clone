@@ -9,7 +9,7 @@ function NavBar(props) {
     return (
         <div className="navbar">
             <div className="nav-img">
-                <img alt="" style={{height: '50px'}}src="https://instadriver.co/img/logo.svg"></img>
+                <img alt="" src="https://instadriver.co/img/logo.svg"></img>
             </div>
             <ul className="nav-links">
                 {

@@ -6,7 +6,51 @@
 }
 
 .under-nav .say-something {
-    padding-right: 10%;
+    /* padding-right: 10%; */
     color: #B0B0B0;
-    float: right;
+    /* float: right; */
+}
+
+.under-nav-content {
+    display: flex;
+}
+
+.under-nav .say-something img {
+    display: inline-block;
+}
+
+.undernav::after {
+    clear: both;
+    content: "";
+}
+
+@media only screen and (max-width: 660px) {
+    .under-nav {
+        padding-top: 65px;
+        text-align: center;
+        display: flex;
+        margin: 0;
+    }
+
+    .under-nav-content {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        margin: 0 auto;
+    }
+
+    .under-nav-content .message {
+        margin-right: 5px;
+        display: inline-block;
+        /* position: relative;
+        right: 104px;
+        top: 4px; */
+    }
+
+    .under-nav .say-something {
+        display: inline-block;
+        /* position: absolute;
+        right: 50px; */
+    }
+
 }

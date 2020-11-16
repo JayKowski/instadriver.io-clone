@@ -4,16 +4,18 @@ import ForDrivers from './ForDrivers';
 import '../stylesheets/Services.css';
 
 function tabCnt(e) {
+    const x = window.matchMedia("(max-width: 660px)");
     const employers = document.querySelector('.employers-tab');
     const drivers = document.querySelector('.drivers-tab');
+    
     if(e.target.className === 'for-employers') {
-        employers.style.display = 'flex';
+        employers.style.display = x.matches ? 'block' : 'flex';
         drivers.style.display = 'none';
         e.target.style.backgroundColor = ''
         e.target.style.border = '1px solid #e9e9e9;'
         // e.target.style.display = 
     } else if (e.target.className === 'for-drivers') {
-        drivers.style.display = 'flex';
+        drivers.style.display = x.matches ? 'block' : 'flex';
         employers.style.display = 'none';
     }
 }

@@ -15,3 +15,9 @@
 .portfolio-tab .portfolio-tab-content p {
     font-family: 'Rubik', sans-serif;
 }
+
+@media only screen and (max-width: 660px) {
+    .portfolio-tab .portfolio-tab-content {
+        width: 100%;
+    }
+}
