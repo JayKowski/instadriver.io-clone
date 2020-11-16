@@ -16,8 +16,8 @@
     justify-content: flex-end;
 }
 
-.under-nav .say-something img {
-    display: inline-block;
+.unde-nav-content .message {
+    margin-right: 10px;
 }
 
 .undernav::after {
